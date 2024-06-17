@@ -1,0 +1,1 @@
+This is training on building custom shapes using HTML and CSS exclusively. This should strengthen your implimentation of this skills
