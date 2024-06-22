@@ -285,7 +285,7 @@ body > div {
   margin-top: -0.8rem;
 }
 
-/* ------------------- SHAPE 6 (pink pumpkin) -------------- */
+/* ------------------- SHAPE 7 (pink pumpkin) -------------- */
 
 .shape-7 {
   background: #293462;
@@ -330,3 +330,91 @@ body > div {
   position: absolute;
   bottom: 1rem;
 }
+
+/* ------------------- SHAPE 8 (elephant) -------------- */
+
+.shape-8 {
+  background: #998235;
+}
+
+.shape-8 div:nth-child(2) {
+  width: 8rem;
+  height: 8rem;
+  background: #1a4341;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.shape-8 div:nth-child(2) span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #1a4341;
+  border: 0.5rem solid #998235;
+}
+
+.shape-8 div:nth-child(2)::before {
+  content: '';
+  width: 80%;
+  height: 1.2rem;
+  background: #1a4341;
+  position: absolute;
+  top: 35%;
+}
+
+.shape-8 div:nth-child(2)::after {
+  content: '';
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  bottom: -3rem;
+  border-radius: 50%;
+  border: 0.8rem solid transparent;
+  border-top-color: white;
+  border-left-color: white;
+  transform: rotate(45deg);
+}
+
+.shape-8 div:nth-child(1),
+.shape-8 div:nth-child(3) {
+  content:'';
+  position: relative;
+  width: 3rem;
+  height: 8rem;
+  background: #1a4341;
+  border-radius: 50%;
+}
+
+.shape-8 div:nth-child(1)::before,
+.shape-8 div:nth-child(3)::before {
+  content: '';
+  width: 85%;
+  height: 100%;
+  background: #0b2429;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+
+.shape-8 div:nth-child(3)::before {
+  left: 0;
+}
+
+.shape-8::before {
+  content: '';
+  width: 1.4rem;
+  height: 42%;
+  background: #0b2429;
+  position: absolute;
+  z-index: 3;
+  bottom: 0; 
+  border-radius: 2rem 2rem 0 0;
+}
+
+/* ------------------- SHAPE 9 (mountains) -------------- */
+
